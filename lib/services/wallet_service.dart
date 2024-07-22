@@ -4,7 +4,7 @@ import 'package:bank_sha/services/auth_service.dart';
 import 'package:http/http.dart' as http;
 
 class WalletService {
-  final String baseUrl = 'http://27.112.78.158/api';
+  final String baseUrl = 'http://103.186.1.163/api';
 
   Future<void> updatePin(String oldPin, String newPin) async {
     try {
