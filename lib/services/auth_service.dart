@@ -8,7 +8,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  final String baseUrl = 'http://27.112.78.158/api';
+  final String baseUrl = 'http://103.186.1.163/api';
 
   Future<bool> checkEmail(String email) async {
     try {
